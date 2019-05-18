@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "109529931238",
+    "firebase_url": "https://alertajovenkotlin.firebaseio.com",
+    "project_id": "alertajovenkotlin",
+    "storage_bucket": "alertajovenkotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109529931238:android:b6e6ea60cf26e0a2",
+        "android_client_info": {
+          "package_name": "com.itson.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109529931238-d9rcq1f994ae3tc9uj1a6tm9phsqa9gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itson.myapplication",
+            "certificate_hash": "91a485dd4a6ee817dd0bba088dda79dc06b52ac4"
+          }
+        },
+        {
+          "client_id": "109529931238-kea829bvdmjkkdhhopaar6t259hqgvsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCUT1rf0OpAdjuiQOEzKXeB8fEw5y4pKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109529931238-kea829bvdmjkkdhhopaar6t259hqgvsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
