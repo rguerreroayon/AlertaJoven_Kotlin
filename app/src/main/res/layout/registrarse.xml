@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/fondo"
+    />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center"
+    >
+
+        <ImageView android:layout_width="110dp"
+                   android:layout_height="110dp"
+                   android:background="@drawable/circulo_imagen"
+                   android:padding="15dp"
+                   android:layout_marginBottom="50dp"
+                   android:src="@drawable/fec"
+        />
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/et_nombre"
+                  android:hint="Nombre"
+                  android:layout_marginBottom="15dp"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:paddingLeft="20dp"
+                  android:paddingRight="10dp"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp"
+                  android:textColorHint="#ccc"
+        />
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/et_correo"
+                  android:hint="Correo Electrónico"
+                  android:layout_marginBottom="15dp"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:paddingLeft="20dp"
+                  android:paddingRight="10dp"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp"
+                  android:textColorHint="#ccc"
+        />
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/et_telefono"
+                  android:hint="Teléfono"
+                  android:layout_marginBottom="15dp"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:paddingLeft="20dp"
+                  android:paddingRight="10dp"
+                  android:paddingTop="10dp"
+                  android:paddingBottom="10dp"
+                  android:textColorHint="#ccc"
+        />
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="100dp"
+                android:layout_marginLeft="100dp"
+                android:background="#ccc"
+                android:text="Registrarse"
+                android:layout_marginBottom="250dp"
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>

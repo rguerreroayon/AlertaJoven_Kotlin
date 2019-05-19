@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/fondo"
+    />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center"
+    >
+
+        <ImageView android:layout_width="110dp"
+                   android:layout_height="110dp"
+                   android:layout_marginBottom="40dp"
+                   android:background="@drawable/circulo_imagen"
+                   android:padding="15dp"
+                   android:src="@drawable/fec"
+                   android:layout_gravity="center"
+        />
+
+        <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MENSAJE DE ALERTA:"
+                    android:paddingLeft="30dp"
+                    android:textColor="#fff"
+    />
+
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="150dp"
+        />
+
+        <Button android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="250dp"
+                android:text="Aceptar"
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>
