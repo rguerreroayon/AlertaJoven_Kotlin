@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_inicio"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Inicio"/>
+        <item
+                android:id="@+id/nav_contactos"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Administrar Contactos"/>
+        <item
+                android:id="@+id/nav_mensaje"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Mensaje de emergencia"/>
+        <item
+                android:id="@+id/nav_permisos"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Verificar permisos"/>
+        <item
+                android:id="@+id/nav_ayuda"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Ayuda"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="@string/menu_share"/>
+            <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/menu_send"/>
+        </menu>
+    </item>
+
+</menu>
