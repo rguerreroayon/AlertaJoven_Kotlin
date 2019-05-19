@@ -9,33 +9,25 @@
                 android:icon="@drawable/ic_menu_camera"
                 android:title="Inicio"/>
         <item
-                android:id="@+id/nav_contactos"
+                android:id="@+id/nav_administrar_contactos"
                 android:icon="@drawable/ic_menu_gallery"
                 android:title="Administrar Contactos"/>
         <item
-                android:id="@+id/nav_mensaje"
+                android:id="@+id/nav_configuracion_alerta"
                 android:icon="@drawable/ic_menu_slideshow"
-                android:title="Mensaje de emergencia"/>
-        <item
-                android:id="@+id/nav_permisos"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="Verificar permisos"/>
-        <item
-                android:id="@+id/nav_ayuda"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="Ayuda"/>
+                android:title="Configuración de alerta"/>
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Cuenta">
         <menu>
             <item
-                    android:id="@+id/nav_share"
+                    android:id="@+id/nav_configuracion_cuenta"
                     android:icon="@drawable/ic_menu_share"
-                    android:title="@string/menu_share"/>
+                    android:title="Configuración"/>
             <item
-                    android:id="@+id/nav_send"
+                    android:id="@+id/nav_cerrar_sesion"
                     android:icon="@drawable/ic_menu_send"
-                    android:title="@string/menu_send"/>
+                    android:title="Cerrar sesión"/>
         </menu>
     </item>
 
